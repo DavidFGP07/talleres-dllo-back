@@ -16,9 +16,10 @@ function resolvedor(a, b, c, op ){
         return (-b-((b*b-(4*a*c))**(1/2)))/(2*a)
     }
 }
+console.log(resolvedor(a, b, c, 1))
 
 function mejorParidad (number) {
-    if ((number/2) === 0  ){
+    if ((number%2) === 0  ){
         return "Es par"
     }else{
         return "No es"
@@ -52,3 +53,4 @@ function peorparidad (number){
 
 }
 console.log(peorparidad(n))
+
